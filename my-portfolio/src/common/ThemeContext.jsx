@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 // Create a context for the theme (light or dark)
 const ThemeContext = createContext();
 
@@ -18,7 +18,8 @@ export const ThemeProvider = ({ children }) => {
   }, [theme]);
 
   // Toggle between light and dark themes
-  toggleTheme = () => {
+  const toggleTheme = () => {
+    console.log("Toggling theme");
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
