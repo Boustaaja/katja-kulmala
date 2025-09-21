@@ -50,7 +50,7 @@ function Hero() {
             <img src={LinkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           Third-year game development student at Karelia University of Applied
           Sciences.
         </p>
