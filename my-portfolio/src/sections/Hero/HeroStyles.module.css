@@ -70,10 +70,33 @@
 
 .description {
   max-width: 24ch;
+  align-self: center;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .hero {
+      max-width: 350px;
+      width: 350px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    .hero {
+      max-width: 400px;
+      width: 400px;
+    }
+  }
 }
