@@ -4,7 +4,7 @@
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
   --text-color: #222;
-  --footer-text-color: #555;
+  --form-text-color: #555;
   --footer-text-color: #888;
 }
 [data-theme="dark"] {
@@ -13,7 +13,7 @@
   --btn-text-color: #222;
   --project-card-bg: #fff;
   --text-color: #fff;
-  --footer-text-color: #fff;
+  --form-text-color: #fff;
   --footer-text-color: #bbb;
 }
 
