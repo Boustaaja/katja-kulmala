@@ -51,8 +51,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Third-year game development student at Karelia University of Applied
-          Sciences.
+          Highly motivated team player with a passion for planning and ideation.
+          I thrive on continuous learning and am inspired by bringing ideas to
+          life.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

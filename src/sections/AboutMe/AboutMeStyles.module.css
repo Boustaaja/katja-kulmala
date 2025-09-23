@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 500px;
+  gap: 20px;
+}
+
+.nameHighlight {
+  font-weight: bold;
+}
+.description {
+  color: var(--text-color); /* change color based on dark/light mode */
+}
+
+.description {
+  max-width: 34ch;
+  align-self: center;
+}
+
+@media (min-width: 800px) {
+  .description {
+    max-width: 68ch;
+    align-self: center;
+  }
+}

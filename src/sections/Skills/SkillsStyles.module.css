@@ -17,7 +17,8 @@
 .skillList {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
+  justify-content: center;
   row-gap: 40px;
   max-width: 26ch;
 }
