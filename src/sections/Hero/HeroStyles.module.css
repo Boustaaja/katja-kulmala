@@ -3,10 +3,14 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 100dvh;
   min-height: 500px;
   gap: 20px;
+  padding-bottom: 20px;
 
+  /* Heights with different units for mobile and desktop */
+  height: 100vh; /* fallback for older devices */
+  height: 100dvh; /* dynamic viewport height */
+  height: 100svh; /* small viewport height (turvallisin mobiilissa) */
   .hero {
     max-width: 200px;
   }
@@ -76,7 +80,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 @media (min-width: 800px) {

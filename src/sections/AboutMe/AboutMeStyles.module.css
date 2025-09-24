@@ -10,13 +10,16 @@
 .nameHighlight {
   font-weight: bold;
 }
-.description {
-  color: var(--text-color); /* change color based on dark/light mode */
+
+.thankYou {
+  font-size: 24px;
+  margin-top: 10px;
 }
 
 .description {
   max-width: 34ch;
   align-self: center;
+  color: var(--text-color); /* change color based on dark/light mode */
 }
 
 @media (min-width: 800px) {

@@ -21,7 +21,7 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          className={styles.Hero}
+          className={styles.hero}
           src={heroImg}
           alt="Profile picture of Katja Kulmala"
         />
@@ -51,9 +51,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Highly motivated team player with a passion for planning and ideation.
-          I thrive on continuous learning and am inspired by bringing ideas to
-          life.
+          A dedicated and motivated team player passionate about designing and
+          ideation. Inspired by bringing ideas to life and the learning that
+          comes with it.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
