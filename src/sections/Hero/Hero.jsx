@@ -18,11 +18,7 @@ function Hero() {
   const LinkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
-    <section
-      id="hero"
-      className={styles.container}
-      style={{ scrollMarginTop: 0 }}
-    >
+    <section id="hero" className={styles.container}>
       <nav className={styles.navbar}>
         <a href="#hero">Hero</a>
         <a href="#aboutme">About Me</a>

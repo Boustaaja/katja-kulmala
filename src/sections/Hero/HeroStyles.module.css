@@ -6,7 +6,7 @@
   min-height: 500px;
   gap: 20px;
   padding-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 10px;
 
   /* Heights with different units for mobile and desktop */
   height: 100vh; /* fallback for older devices */
@@ -60,18 +60,22 @@
 }
 .navbar {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   padding: 10px;
   background-color: var(--bg-color);
   position: fixed;
   top: 0;
   z-index: 1000;
+  text-justify: center;
+  justify-content: center;
 }
 .navbar a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: bold;
   transition: color 0.2s;
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
 }
 
 .navbar a:hover {
@@ -112,6 +116,16 @@
       max-width: 350px;
       width: 350px;
     }
+
+    .navbar {
+      gap: 90px;
+      padding: 15px;
+    }
+
+    .navbar a {
+      font-family: "Rubik", sans-serif;
+      font-size: 22px;
+    }
   }
 }
 
@@ -120,6 +134,15 @@
     .hero {
       max-width: 400px;
       width: 400px;
+    }
+    .navbar {
+      gap: 60px;
+      padding: 20px;
+    }
+
+    .navbar a {
+      font-family: "Rubik", sans-serif;
+      font-size: 30px;
     }
   }
 }
