@@ -6,7 +6,7 @@
   min-height: 500px;
   gap: 20px;
   padding-bottom: 20px;
-  padding-top: 60px;
+  padding-top: 30px;
 
   /* Heights with different units for mobile and desktop */
   height: 100vh; /* fallback for older devices */
@@ -61,7 +61,7 @@
 .navbar {
   display: flex;
   gap: 20px;
-  padding: 15px;
+  padding: 10px;
   background-color: var(--bg-color);
   position: fixed;
   top: 0;
