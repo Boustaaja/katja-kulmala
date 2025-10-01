@@ -14,6 +14,7 @@ function Contact() {
             name="name"
             placeholder="Name"
             required
+            autoComplete="name"
           />
         </div>
         <div className="formGroup">
@@ -21,11 +22,12 @@ function Contact() {
             Email
           </label>
           <input
-            type="text"
+            type="email"
             id="email"
             name="email"
             placeholder="Email"
             required
+            autoComplete="email"
           />
         </div>
         <div className="formGroup">
@@ -37,6 +39,7 @@ function Contact() {
             name="message"
             placeholder="Message"
             required
+            autoComplete="off"
           ></textarea>
         </div>
         <input className="hover btn" type="submit" value="Submit" />
