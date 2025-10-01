@@ -5,6 +5,7 @@
   text-align: center;
   min-height: 500px;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
 .nameHighlight {
@@ -12,12 +13,12 @@
 }
 
 .thankYou {
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 10px;
 }
 
 .description {
-  max-width: 34ch;
+  max-width: 30ch;
   align-self: center;
   color: var(--text-color); /* change color based on dark/light mode */
 }

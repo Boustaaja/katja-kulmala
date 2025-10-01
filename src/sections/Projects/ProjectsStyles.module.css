@@ -5,6 +5,7 @@ Putting img inside container so that the effect applies to only the image inside
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 20px;
 
   img {
     width: 250px;

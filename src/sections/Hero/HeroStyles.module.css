@@ -15,6 +15,26 @@
     max-width: 200px;
   }
 
+  .navbar {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background-color: var(--bg-color);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+
+  .navbar a:hover {
+    color: var(--btn-color);
+  }
+
   /* Span is for our social media links */
   span {
     display: flex;
@@ -64,7 +84,7 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
+  right: 10; /*this affects the moon/sun icon location*/
   width: 25px;
 }
 
@@ -73,7 +93,7 @@
 }
 
 .description {
-  max-width: 30ch;
+  max-width: 28ch;
   align-self: center;
 }
 

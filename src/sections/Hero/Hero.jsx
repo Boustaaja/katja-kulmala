@@ -18,7 +18,18 @@ function Hero() {
   const LinkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className={styles.container}>
+    <section
+      id="hero"
+      className={styles.container}
+      style={{ scrollMarginTop: 0 }}
+    >
+      <nav className={styles.navbar}>
+        <a href="#hero">Hero</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
@@ -43,10 +54,13 @@ function Hero() {
           <br /> Software Development
         </h2>
         <span>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Boustaaja/" target="_blank">
             <img src={GithubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/katja-kulmala-628706377/"
+            target="_blank"
+          >
             <img src={LinkedinIcon} alt="Linkedin icon" />
           </a>
         </span>

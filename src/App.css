@@ -17,6 +17,14 @@
   --footer-text-color: #bbb;
 }
 
+section {
+  scroll-margin-top: 80px; /* offset for sticky navbar */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
 body {
   background-color: var(--background-color);
   display: flex;
