@@ -6,7 +6,7 @@
   min-height: 500px;
   gap: 20px;
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
 
   /* Heights with different units for mobile and desktop */
   height: 100vh; /* fallback for older devices */
