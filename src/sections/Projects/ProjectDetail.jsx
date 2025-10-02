@@ -2,7 +2,7 @@ import React, { use } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import styles from "./ProjectDetailStyles.module.css";
 import ProjectCarousel from "../../common/ProjectCarousel";
-import testImage from "../../assets/test.png";
+import testImage from "../../assets/Test.png";
 
 const projectData = {
   Viberr: {
