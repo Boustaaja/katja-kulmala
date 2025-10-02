@@ -20,7 +20,7 @@ function Hero() {
   return (
     <section id="hero" className={styles.container}>
       <nav className={styles.navbar}>
-        <a href="#hero">Hero</a>
+        <a href="#hero">Home</a>
         <a href="#aboutme">About Me</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>

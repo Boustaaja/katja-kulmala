@@ -11,26 +11,26 @@ function Projects() {
       <div className={styles.projectsContainer}>
         {/* Using the ProjectCard component to display individual projects. So far just an examples */}
         <ProjectCard
-          src={viberr}
-          link="Linkki projektiin"
+          id="Viberr" /* Added id prop for routing */
+          src={viberr} /* Image source */
           h3="Viberr"
           p="Description of the project."
         />
         <ProjectCard
+          id="Fresh Burger"
           src={freshBurger}
-          link="Linkki projektiin"
           h3="Fresh Burger"
           p="Description of the project."
         />
         <ProjectCard
+          id="Viberr"
           src={viberr}
-          link="Linkki projektiin"
           h3="Viberr"
           p="Description of the project."
         />
         <ProjectCard
+          id="Fresh Burger"
           src={freshBurger}
-          link="Linkki projektiin"
           h3="Fresh Burger"
           p="Description of the project."
         />
