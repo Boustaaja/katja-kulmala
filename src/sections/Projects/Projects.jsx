@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
+import Ganbatte from "../../assets/GanbatteKudasai/hiragana_rs.png";
 import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
 
@@ -11,10 +12,10 @@ function Projects() {
       <div className={styles.projectsContainer}>
         {/* Using the ProjectCard component to display individual projects. So far just an examples */}
         <ProjectCard
-          id="Viberr" /* Added id prop for routing */
-          src={viberr} /* Image source */
-          h3="Viberr"
-          p="Description of the project."
+          id="Ganbatte Kudasai" /* Added id prop for routing */
+          src={Ganbatte} /* Image source */
+          h3="がんばってください" /* Project title */
+          p="Japanese language learning app." /* Short description */
         />
         <ProjectCard
           id="Fresh Burger"

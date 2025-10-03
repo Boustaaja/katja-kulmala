@@ -1,6 +1,6 @@
 .carouselContainer {
   width: 100%;
-  max-width: 90vw; /* suhteessa ruutuun, pienenee nätisti */
+  max-width: 90vw; /* size is responsive */
   margin: 20px auto;
 }
 
