@@ -4,7 +4,7 @@ import styles from "./ProjectDetailStyles.module.css";
 import ProjectCarousel from "../../common/ProjectCarousel";
 import category from "../../assets/GanbatteKudasai/category_rs.PNG";
 import calendar from "../../assets/GanbatteKudasai/calendar_rs.png";
-import hiragana from "../../assets/GanbatteKudasai/Hiragana_rs.png";
+import hiragana from "../../assets/GanbatteKudasai/hiragana_rs.png";
 import menu from "../../assets/GanbatteKudasai/Menu_rs.png";
 import words from "../../assets/GanbatteKudasai/words_rs.png";
 import win from "../../assets/GanbatteKudasai/win.mp4";
