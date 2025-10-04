@@ -6,7 +6,7 @@ import category from "../../assets/GanbatteKudasai/category_rs_temp.png";
 import calendar from "../../assets/GanbatteKudasai/calendar_rs_temp.png";
 import hiragana from "../../assets/GanbatteKudasai/hiragana_rs_temp.png";
 import menu from "../../assets/GanbatteKudasai/Menu_rs_temp.png";
-import words from "../../assets/GanbatteKudasai/words_rs.png";
+import words from "../../assets/GanbatteKudasai/words_rs_temp.png";
 import win from "../../assets/GanbatteKudasai/win.mp4";
 /* Project data structure with media assets */
 
