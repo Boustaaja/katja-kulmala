@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
-import Ganbatte from "../../assets/GanbatteKudasai/hiragana_rs.PNG";
+import Ganbatte from "../../assets/GanbatteKudasai/hiragana_rs.png";
 import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
 
