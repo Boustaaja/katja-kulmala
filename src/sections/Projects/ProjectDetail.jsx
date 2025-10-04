@@ -2,10 +2,10 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import styles from "./ProjectDetailStyles.module.css";
 import ProjectCarousel from "../../common/ProjectCarousel";
-import category from "../../assets/GanbatteKudasai/category_rs.png";
-import calendar from "../../assets/GanbatteKudasai/calendar_rs.png";
+import category from "../../assets/GanbatteKudasai/category_rs_temp.png";
+import calendar from "../../assets/GanbatteKudasai/calendar_rs_temp.png";
 import hiragana from "../../assets/GanbatteKudasai/hiragana_rs_temp.png";
-import menu from "../../assets/GanbatteKudasai/Menu_rs.png";
+import menu from "../../assets/GanbatteKudasai/Menu_rs_temp.png";
 import words from "../../assets/GanbatteKudasai/words_rs.png";
 import win from "../../assets/GanbatteKudasai/win.mp4";
 /* Project data structure with media assets */
