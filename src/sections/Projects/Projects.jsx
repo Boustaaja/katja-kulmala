@@ -12,7 +12,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         {/* Using the ProjectCard component to display individual projects. So far just an examples */}
         <ProjectCard
-          id="Ganbatte Kudasai" /* Added id prop for routing */
+          id="GanbatteKudasai" /* Added id prop for routing */
           src={Ganbatte} /* Image source */
           h3="がんばってください" /* Project title */
           p="Japanese language learning app." /* Short description */
