@@ -4,7 +4,8 @@ import viberr from "../../assets/viberr.png";
 import Ganbatte from "../../assets/GanbatteKudasai/hiragana_rs_temp.png";
 import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
-import newGame from "../../assets/Minimax/new.png";
+import newGame from "../../assets/Minimax/newGameRS.png";
+import capsized_boat from "../../assets/Capsized/CSRS.png";
 
 function Projects() {
   return (
@@ -25,10 +26,10 @@ function Projects() {
           p="Connect 4 game featuring an AI opponent"
         />
         <ProjectCard
-          id="Viberr"
-          src={viberr}
-          h3="Viberr"
-          p="Description of the project."
+          id="Capsized"
+          src={capsized_boat}
+          h3="Capsized"
+          p="A co-operative survival multiplayer game"
         />
         <ProjectCard
           id="Fresh Burger"

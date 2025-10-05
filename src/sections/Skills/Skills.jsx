@@ -30,6 +30,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Visual Studio" />
         <SkillList src={checkMarkIcon} skill="HeidiSQL" />
         <SkillList src={checkMarkIcon} skill="Azure DevOps" />
+        <SkillList src={checkMarkIcon} skill="Blender" />
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="GitHub" />
       </div>

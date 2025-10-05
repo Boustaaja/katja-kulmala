@@ -12,11 +12,15 @@ import win from "../../assets/GanbatteKudasai/win.mp4";
 import info from "../../assets/GanbatteKudasai/info.png";
 import info2 from "../../assets/GanbatteKudasai/info2.png";
 import hard from "../../assets/GanbatteKudasai/vaikea.mp4";
-import newGame from "../../assets/Minimax/NewGame.png";
-import minimax from "../../assets/Minimax/MiniMax.mp4";
-import draw from "../../assets/Minimax/draw_short.mp4";
+import newGame from "../../assets/Minimax/uusiPeli.png";
+import draw from "../../assets/Minimax/MiniMax.mp4";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
+import cabin from "../../assets/Capsized/Cabin.png";
+import barrels from "../../assets/Capsized/barrels.png";
+import cans from "../../assets/Capsized/cans.png";
+import glass from "../../assets/Capsized/Glass.png";
+import pens from "../../assets/Capsized/Pens.png";
 
 /* Project data structure */
 const projectData = {
@@ -75,8 +79,41 @@ const projectData = {
     /* Added media array for potential gallery */
     media: [
       { type: "image", src: newGame },
-      { type: "video", src: minimax },
       { type: "video", src: draw },
+    ],
+  },
+  Capsized: {
+    title: "Capsized",
+    description:
+      "A co-operative survival multiplayer game where players must escape a sinking ship. The game draws inspiration from the movie Poseidon and is being developed as a long-term student project.",
+    purpose:
+      "The goal of this project was to create a collaborative Unreal Engine game that brings together design, 3D modeling, and gameplay programming. The development followed the Scrum methodology, and project management was organized in Azure DevOps. The first phase focused on modeling assets and creating environment modules based on reference materials and ship blueprints from the Poseidon film.",
+    feature: [
+      "Multiplayer survival gameplay in Unreal Engine",
+      "Development managed through Scrum methodology in Azure DevOps",
+      "Custom assets modeled in Blender, inspired by the Poseidon movie",
+      "Designed and built a cabin module based on real ship blueprints",
+      "Implemented gameplay logic such as compass navigation and vending machine functionality",
+      "Developed particle effects for underwater bubbles and shader-based breakable glass",
+      "Created MetaHuman characters and contributed to animation work",
+      "Currently contributing to the AI and multiplayer phase, with my main responsibility focusing on designing and implementing gameplay features through the Gameplay Ability System (GAS).",
+    ],
+    technologies: [
+      "Unreal Engine 5",
+      "Blueprints and C++",
+      "Blender for 3D modeling",
+      "Azure DevOps (Scrum project management)",
+      "Gameplay Ability System (GAS)",
+      "Shader development and Niagara particle systems",
+    ],
+    solutions:
+      "In the early stages, my primary focus was on environment art and interaction logic. I modeled various assets and designed systems like the ships compass and a vending machine that exchanges money for items. I also implemented special effects such as water bubbles and breakable glass using shaders. Throughout the project, I learned how collaborative game development works within a Scrum framework and how to communicate efficiently across different disciplines. Currently, I am working on the AI and multiplayer phase, focusing on integrating the Gameplay Ability System (GAS) into the project.",
+    media: [
+      { type: "image", src: cabin },
+      { type: "image", src: barrels },
+      { type: "image", src: cans },
+      { type: "image", src: glass },
+      { type: "image", src: pens },
     ],
   },
 };
