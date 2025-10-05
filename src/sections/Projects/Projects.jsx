@@ -4,6 +4,7 @@ import viberr from "../../assets/viberr.png";
 import Ganbatte from "../../assets/GanbatteKudasai/hiragana_rs_temp.png";
 import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
+import newGame from "../../assets/Minimax/new.png";
 
 function Projects() {
   return (
@@ -18,10 +19,10 @@ function Projects() {
           p="Japanese language learning app." /* Short description */
         />
         <ProjectCard
-          id="Fresh Burger"
-          src={freshBurger}
-          h3="Fresh Burger"
-          p="Description of the project."
+          id="Connect-4 AI"
+          src={newGame}
+          h3="Connect-4 AI"
+          p="Connect 4 game featuring an AI opponent"
         />
         <ProjectCard
           id="Viberr"

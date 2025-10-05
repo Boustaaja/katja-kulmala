@@ -62,8 +62,8 @@ function Hero() {
         </span>
         <p className={styles.description}>
           A dedicated and motivated team player passionate about designing and
-          ideation. Inspired by bringing ideas to life and the learning that
-          comes with it.
+          brainstorming. Inspired by bringing ideas to life and the learning
+          that comes with it.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

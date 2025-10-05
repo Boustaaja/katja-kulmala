@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import styles from "./ProjectDetailStyles.module.css";
 import ProjectCarousel from "../../common/ProjectCarousel";
@@ -11,6 +12,10 @@ import win from "../../assets/GanbatteKudasai/win.mp4";
 import info from "../../assets/GanbatteKudasai/info.png";
 import info2 from "../../assets/GanbatteKudasai/info2.png";
 import hard from "../../assets/GanbatteKudasai/vaikea.mp4";
+import newGame from "../../assets/Minimax/NewGame.png";
+import minimax from "../../assets/Minimax/MiniMax.mp4";
+import draw from "../../assets/Minimax/draw_short.mp4";
+/* Importing media assets for projects */
 /* Project data structure with media assets */
 
 const projectData = {
@@ -46,13 +51,31 @@ const projectData = {
       { type: "video", src: hard },
     ],
   },
-  "Fresh Burger": {
-    title: "Fresh Burger",
-    description: "Detailed description of the Fresh Burger project goes here.",
+  "Connect-4 AI": {
+    title: "Connect-4 AI (Minimax with Alpha-Beta Pruning)",
+    description:
+      "A WPF-based Connect 4 game featuring an AI opponent using the Minimax algorithm with Alpha-Beta pruning.",
+    purpose:
+      "This project was developed as a group assignment for our Artificial Intelligence and Robotics course. The goal was to explore how the Minimax algorithm works and how it can be optimized for better performance using Alpha-Beta pruning. The project focused on understanding AI decision-making in turn-based games while implementing it in a practical, visual way.",
+    feature: [
+      "Playable Connect 4 game against an AI opponent",
+      "AI uses Minimax algorithm enhanced with Alpha-Beta pruning",
+      "Turn-based logic with clear UI indicators for each player",
+      "Graphical interface built with WPF (XAML and C#)",
+      "Game state detection for wins, draws, and valid moves",
+    ],
+    technologies: [
+      "C# and .NET (WPF framework)",
+      "XAML for UI design",
+      "Minimax algorithm with Alpha-Beta pruning",
+    ],
+    solutions:
+      "My main responsibility in the project was designing and implementing the user interface and core game logic. I also contributed to testing and debugging the application. Together, our team discussed and refined the algorithm’s optimization methods, ensuring the AI played efficiently while maintaining a smooth user experience. The project deepened my understanding of how game AI works under the hood and how algorithmic efficiency affects gameplay. Additionally, it taught me a great deal about teamwork and the importance of clear communication when developing software collaboratively.",
     /* Added media array for potential gallery */
     media: [
-      { type: "image", src: "assets/fresh-burger.png" },
-      { type: "video", src: "assets/fresh-burger-demo.mp4" },
+      { type: "image", src: newGame },
+      { type: "video", src: minimax },
+      { type: "video", src: draw },
     ],
   },
 };
@@ -60,6 +83,10 @@ const projectData = {
 function ProjectDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   const project = projectData[id];
   if (!project) return <h2>Project not found</h2>;

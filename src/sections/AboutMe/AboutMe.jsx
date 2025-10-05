@@ -68,7 +68,7 @@ function AboutMe() {
         >
           ideating
         </span>
-        , but I am especially motivated when I can bring ideas to life. I feel
+        , and I am especially motivated when I can bring ideas to life. I feel
         at my best working on creative projects with great{" "}
         <span
           className={styles.nameHighlight}
