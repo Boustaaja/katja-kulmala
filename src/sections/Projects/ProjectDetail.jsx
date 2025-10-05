@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import styles from "./ProjectDetailStyles.module.css";
 import ProjectCarousel from "../../common/ProjectCarousel";
@@ -15,9 +15,10 @@ import hard from "../../assets/GanbatteKudasai/vaikea.mp4";
 import newGame from "../../assets/Minimax/NewGame.png";
 import minimax from "../../assets/Minimax/MiniMax.mp4";
 import draw from "../../assets/Minimax/draw_short.mp4";
-/* Importing media assets for projects */
-/* Project data structure with media assets */
+import githubLight from "../../assets/github-light.svg";
+import githubDark from "../../assets/github-dark.svg";
 
+/* Project data structure */
 const projectData = {
   "Ganbatte Kudasai": {
     title: "がんばってください (Ganbatte Kudasai)",
@@ -84,9 +85,15 @@ function ProjectDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
 
+  /* State to manage theme for github icon */
+  const [isDark, setIsDark] = useState(false);
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    setIsDark(document.body.getAttribute("data-theme") === "dark");
   }, [id]);
+
+  const GithubIcon = isDark ? githubDark : githubLight;
 
   const project = projectData[id];
   if (!project) return <h2>Project not found</h2>;
@@ -125,6 +132,11 @@ function ProjectDetail() {
       <button className={styles.btn} onClick={goBackToProjects}>
         Projects
       </button>
+      <span>
+        <a href="https://github.com/Boustaaja/Minimax" target="_blank">
+          <img src={GithubIcon} alt="Github icon" />
+        </a>
+      </span>
     </section>
   );
 }
