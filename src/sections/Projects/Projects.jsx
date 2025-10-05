@@ -6,6 +6,7 @@ import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
 import newGame from "../../assets/Minimax/newGameRS.png";
 import capsized_boat from "../../assets/Capsized/CSRS.png";
+import miniGame from "../../assets/miniGame/gate.png";
 
 function Projects() {
   return (
@@ -32,10 +33,10 @@ function Projects() {
           p="A co-operative survival multiplayer game"
         />
         <ProjectCard
-          id="Fresh Burger"
-          src={freshBurger}
-          h3="Fresh Burger"
-          p="Description of the project."
+          id="miniGame"
+          src={miniGame}
+          h3="Mini-game"
+          p="Survival mini-game set in a maze."
         />
       </div>
     </section>

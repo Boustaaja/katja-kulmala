@@ -21,7 +21,19 @@ import barrels from "../../assets/Capsized/barrels.png";
 import cans from "../../assets/Capsized/cans.png";
 import glass from "../../assets/Capsized/Glass.png";
 import pens from "../../assets/Capsized/Pens.png";
-
+import bottle from "../../assets/miniGame/bottle.png";
+import chest from "../../assets/miniGame/chest.png";
+import compass from "../../assets/miniGame/compass.png";
+import corner from "../../assets/miniGame/corner.png";
+import gate from "../../assets/miniGame/gate.png";
+import labyrinth from "../../assets/miniGame/labyrinth.png";
+import npc from "../../assets/miniGame/npc.png";
+import tiles from "../../assets/miniGame/tiles.png";
+import spikesDeath from "../../assets/miniGame/Spikes_death.mp4";
+import npc_video from "../../assets/miniGame/npc.mp4";
+import shards from "../../assets/miniGame/shards.png";
+import compass_video from "../../assets/miniGame/compass.mp4";
+import win_gate from "../../assets/miniGame/Win.png";
 /* Project data structure */
 const projectData = {
   "Ganbatte Kudasai": {
@@ -99,7 +111,7 @@ const projectData = {
       "Currently contributing to the AI and multiplayer phase, with my main responsibility focusing on designing and implementing gameplay features through the Gameplay Ability System (GAS).",
     ],
     technologies: [
-      "Unreal Engine 5",
+      "Unreal Engine 5.5",
       "Blueprints and C++",
       "Blender for 3D modeling",
       "Azure DevOps (Scrum project management)",
@@ -107,13 +119,57 @@ const projectData = {
       "Shader development and Niagara particle systems",
     ],
     solutions:
-      "In the early stages, my primary focus was on environment art and interaction logic. I modeled various assets and designed systems like the ships compass and a vending machine that exchanges money for items. I also implemented special effects such as water bubbles and breakable glass using shaders. Throughout the project, I learned how collaborative game development works within a Scrum framework and how to communicate efficiently across different disciplines. Currently, I am working on the AI and multiplayer phase, focusing on integrating the Gameplay Ability System (GAS) into the project.",
+      "In the early stages, my primary focus was on environment art and interaction logic. I modeled various assets and designed systems like the ships compass and a vending machine that exchanges money for items. I also implemented special effects such as water bubbles and breakable glass using shaders. Throughout the project, I learned how collaborative game development works within a Scrum framework, while adapting to and building upon work already completed by other course teams, and how to communicate efficiently across different disciplines. Currently, I am working on the AI and multiplayer phase, focusing on integrating the Gameplay Ability System (GAS) into the project.",
     media: [
       { type: "image", src: cabin },
       { type: "image", src: barrels },
       { type: "image", src: cans },
       { type: "image", src: glass },
       { type: "image", src: pens },
+    ],
+  },
+  miniGame: {
+    title: "MiniGame",
+    description:
+      "A 3D action-adventure survival mini-game set in a deadly labyrinth, where the player controls a black knight trying to escape before time runs out. The maze is filled with hidden traps: deadly spikes, piercing spears, and crushing walls. To open the final gate, the player must find hidden keys, explore secret paths, and use destructible objects strategically. Along the way, a mysterious hiccupping NPC provides a side quest: recover his lost compass. Carefully placed sound effects enhance the tension and guide the player through the dangers of the maze.",
+    purpose: [
+      "This project was developed as a skills demonstration for a Game Development course. The creative theme was open, but the game had to meet several specific requirements, including:" +
+        " Dynamic camera switching during gameplay, Character animations for running, jumping, and shooting projectiles, Time limit and scoring system, Main menu, pause menu, and sound effects.",
+    ],
+    feature: [
+      "Survival mini-game set in a maze full of deadly traps",
+      "Time-based challenge with a scoring system",
+      "Multiple trap types: spike pits, wall spears, and crushing walls",
+      "Hidden keys required to unlock the exit gate",
+      "NPC side quest (recovering a lost compass)",
+      "Ambient sound effects enhancing immersion and atmosphere",
+      "Main menu and pause menu",
+      "A throwable brick used as a projectile to break destructible obstacles",
+    ],
+    technologies: [
+      "Unreal Engine 5.5",
+      "Blueprints and C++",
+      "Blender for 3D modeling",
+      "Fab (torch asset)",
+      "Mixamo (character and animation assets)",
+      "Niagara particle systems",
+    ],
+    solutions:
+      "The project allowed me to apply both technical and creative skills — from 3D modeling and level design to animation and gameplay scripting in Unreal Engine. I implemented various mechanics including traps, destructible walls, a projectile throwing system, key-based progression, and time-limited gameplay. The project had to be completed within a limited timeframe, which meant it is not as polished as It could be, but the challenge made it incredibly rewarding. I genuinely enjoyed every step of the process, from creating the maze layout to fine-tuning gameplay mechanics, which strengthened both my skills and my passion for game development.",
+    media: [
+      { type: "image", src: gate },
+      { type: "image", src: labyrinth },
+      { type: "image", src: bottle },
+      { type: "image", src: chest },
+      { type: "image", src: compass },
+      { type: "video", src: spikesDeath },
+      { type: "image", src: npc },
+      { type: "image", src: tiles },
+      { type: "video", src: npc_video },
+      { type: "image", src: corner },
+      { type: "image", src: shards },
+      { type: "video", src: compass_video },
+      { type: "image", src: win_gate },
     ],
   },
 };
