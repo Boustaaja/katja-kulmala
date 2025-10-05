@@ -8,6 +8,9 @@ import hiragana from "../../assets/GanbatteKudasai/hiragana_rs_temp.png";
 import menu from "../../assets/GanbatteKudasai/Menu_rs_temp.png";
 import words from "../../assets/GanbatteKudasai/words_rs_temp.png";
 import win from "../../assets/GanbatteKudasai/win.mp4";
+import info from "../../assets/GanbatteKudasai/info.png";
+import info2 from "../../assets/GanbatteKudasai/info2.png";
+import hard from "../../assets/GanbatteKudasai/vaikea.mp4";
 /* Project data structure with media assets */
 
 const projectData = {
@@ -38,6 +41,9 @@ const projectData = {
       { type: "image", src: menu },
       { type: "image", src: words },
       { type: "video", src: win },
+      { type: "image", src: info },
+      { type: "image", src: info2 },
+      { type: "video", src: hard },
     ],
   },
   "Fresh Burger": {
