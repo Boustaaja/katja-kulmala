@@ -1,0 +1,43 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+}
+
+/* Image */
+.cardContainer img {
+  width: 250px;
+  border-radius: 20px;
+  background-color: var(--project-card-bg);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Hover-effect */
+.cardContainer img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Text */
+.cardContainer h3 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: var(--text-color, #222);
+}
+
+.cardContainer p {
+  margin-top: 5px;
+  font-size: 0.95rem;
+  color: var(--text-secondary, #555);
+}
+
+/* Link */
+.cardContainer a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

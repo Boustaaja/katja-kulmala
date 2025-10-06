@@ -1,10 +1,8 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
 import Ganbatte from "../../assets/GanbatteKudasai/hiragana_rs_temp.png";
-import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
-import newGame from "../../assets/Minimax/newGameRS.png";
+import newGame from "../../assets/Minimax/NewGameRS.png";
 import capsized_boat from "../../assets/Capsized/CSRS.png";
 import miniGame from "../../assets/miniGame/gate.png";
 
