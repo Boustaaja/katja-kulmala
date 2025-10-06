@@ -39,6 +39,7 @@ const projectData = {
   "Ganbatte Kudasai": {
     title: "がんばってください (Ganbatte Kudasai)",
     description: "A Japanese language learning app.",
+    github: null,
     purpose:
       "This project was created as my personal project to strengthen and apply the skills I developed during my first year of studies, which focused heavily on C#. At the same time, I was also studying databases, so I wanted to combine both areas in a practical way. The theme was chosen based on my personal interests: I am learning Japanese and I am particularly interested in gamification and serious games, which made a language learning app a natural fit.",
     feature: [
@@ -72,6 +73,7 @@ const projectData = {
     title: "Connect-4 AI (Minimax with Alpha-Beta Pruning)",
     description:
       "A WPF-based Connect 4 game featuring an AI opponent using the Minimax algorithm with Alpha-Beta pruning.",
+    github: "https://github.com/Boustaaja/Minimax",
     purpose:
       "This project was developed as a group assignment for our Artificial Intelligence and Robotics course. The goal was to explore how the Minimax algorithm works and how it can be optimized for better performance using Alpha-Beta pruning. The project focused on understanding AI decision-making in turn-based games while implementing it in a practical, visual way.",
     feature: [
@@ -98,6 +100,7 @@ const projectData = {
     title: "Capsized",
     description:
       "A co-operative survival multiplayer game where players must escape a sinking ship. The game draws inspiration from the movie Poseidon and is being developed as a long-term student project.",
+    github: null,
     purpose:
       "The goal of this project was to create a collaborative Unreal Engine game that brings together design, 3D modeling, and gameplay programming. The development followed the Scrum methodology, and project management was organized in Azure DevOps. The first phase focused on modeling assets and creating environment modules based on reference materials and ship blueprints from the Poseidon film.",
     feature: [
@@ -132,6 +135,8 @@ const projectData = {
     title: "MiniGame",
     description:
       "A 3D action-adventure survival mini-game set in a deadly labyrinth, where the player controls a black knight trying to escape before time runs out. The maze is filled with hidden traps: deadly spikes, piercing spears, and crushing walls. To open the final gate, the player must find hidden keys, explore secret paths, and use destructible objects strategically. Along the way, a mysterious hiccupping NPC provides a side quest: recover his lost compass. Carefully placed sound effects enhance the tension and guide the player through the dangers of the maze.",
+
+    github: null,
     purpose: [
       "This project was developed as a skills demonstration for a Game Development course. The creative theme was open, but the game had to meet several specific requirements, including:" +
         " Dynamic camera switching during gameplay, Character animations for running, jumping, and shooting projectiles, Time limit and scoring system, Main menu, pause menu, and sound effects.",
@@ -225,11 +230,13 @@ function ProjectDetail() {
       <button className={styles.btn} onClick={goBackToProjects}>
         Projects
       </button>
-      <span>
-        <a href="https://github.com/Boustaaja/Minimax" target="_blank">
-          <img src={GithubIcon} alt="Github icon" />
-        </a>
-      </span>
+      {project.github && (
+        <span>
+          <a href={project.github} target="_blank" rel="noopener noreferrer">
+            <img src={isDark ? githubDark : githubLight} alt="Github icon" />
+          </a>
+        </span>
+      )}
     </section>
   );
 }
