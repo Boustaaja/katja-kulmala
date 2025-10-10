@@ -8,7 +8,7 @@ function AboutMe() {
     <section id="aboutme" className={styles.container}>
       <h1 className="sectionTitle">About Me</h1>
       <p className={styles.description}>
-        Hello, my name is{""}
+        Hello, my name is
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
@@ -28,64 +28,68 @@ function AboutMe() {
         >
           game and software development
         </span>
-        . Before entering IT, I have been working for 17 years in{" "}
+        . With 17 years in{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
           customer service
         </span>
-        , where I have learned to adapt to challenging situations and to stay
-        up-to-date with an ever-changing product range.
+        , I have developed strong communication, teamwork, and problem-solving
+        skills.
       </p>
 
       <p className={styles.description}>
-        I am a{" "}
+        {" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          creative
+          Creativity
         </span>{" "}
-        and{" "}
+        drives me. I love turning ideas into tangible experiences. Whether
+        designing{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          innovative
+          game mechanics
         </span>{" "}
-        thinker. I enjoy{" "}
+        crafting{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          designing
+          immersive levels
         </span>{" "}
-        and{" "}
+        or building{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          ideating
+          innovative software solutions
         </span>
-        , and I am especially motivated when I can bring ideas to life. I feel
-        at my best working on creative projects with great{" "}
+        . I thrive in{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          teammates
+          collaborative
         </span>
-        , combining problem-solving, technical skills, and imaginative thinking.
-        Throughout my studies, I have participated in several highly rewarding
-        group projects that followed{" "}
+        ,{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          Scrum
+          Scrum-based
         </span>{" "}
-        principles, which I have truly enjoyed.
+        projects where technical skill meets{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          imaginative thinking.
+        </span>{" "}
       </p>
 
       <p className={styles.description}>
@@ -102,9 +106,9 @@ function AboutMe() {
         >
           {" "}
           my passion
-        </span>{" "}
-        and hobby—from playing, collecting, and trophy hunting to, in recent
-        years, developing. In game development, I am particularly interested in{" "}
+        </span>
+        , from playing and collecting to developing. In game development, I am
+        particularly interested in{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
@@ -118,29 +122,28 @@ function AboutMe() {
         >
           level design
         </span>
-        . I greatly admire Dark Souls series for its style and mechanics, as
-        well as the genre it has spawned. I have a solid foundation with{" "}
+        . I admire Dark Souls for its design brilliance and enjoy exploring what
+        makes games memorable. I have a solid foundation with{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
           Unreal Engine
         </span>
-        , using both C++ and Blueprints. In software development, I am more
-        familiar with .NET and C#, and I also have experience in web development
-        with JavaScript, HTML and CSS. Alongside my studies, I work on{" "}
+        (C++ and Blueprints). In software development, I am more familiar with
+        .NET and C#, and web technologies (JavaScript, HTML and CSS). Outside of
+        school, I dive into{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
           personal projects
         </span>{" "}
-        to explore new tools and methods, improve my skills, and enjoy creative
-        experimentation.
+        to experiment, learn, and push creative boundaries.
       </p>
 
       <p className={styles.description}>
-        Beyond traditional games, I am also interested in{" "}
+        I am also fascinated by{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
