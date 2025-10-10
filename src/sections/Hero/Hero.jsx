@@ -50,7 +50,7 @@ function Hero() {
           <br /> Software Development
         </h2>
         <span>
-          <a href="https://github.com/Boustaaja/" target="_blank">
+          <a href="https://github.com/Boustaaja/katja-kulmala" target="_blank">
             <img src={GithubIcon} alt="Github icon" />
           </a>
           <a
@@ -62,8 +62,8 @@ function Hero() {
         </span>
         <p className={styles.description}>
           A dedicated and motivated team player passionate about designing and
-          brainstorming. Inspired by bringing ideas to life. Currently seeking a
-          internship opportunity in game or software development.
+          brainstorming. Inspired by bringing ideas to life. Currently seeking
+          an internship opportunity in game or software development.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
