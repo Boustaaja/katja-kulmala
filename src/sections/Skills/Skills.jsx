@@ -19,7 +19,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="HTML" />
         <SkillList src={checkMarkIcon} skill="XAML" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="SQL (MariaDB)" />
+        <SkillList src={checkMarkIcon} skill="MySQL (MariaDB)" />
       </div>
       <hr />
       <h1 className="sectionTitle">Software & Tools</h1>

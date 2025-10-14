@@ -34,6 +34,17 @@ import npc_video from "../../assets/miniGame/npc.mp4";
 import shards from "../../assets/miniGame/shards.png";
 import compass_video from "../../assets/miniGame/compass.mp4";
 import win_gate from "../../assets/miniGame/Win.png";
+import add from "../../assets/InvoiceApp/add.png";
+import invoice from "../../assets/InvoiceApp/Invoice_app.png";
+import item from "../../assets/InvoiceApp/Item.png";
+import update from "../../assets/InvoiceApp/update.png";
+import testInvoice from "../../assets/InvoiceApp/Testi.mp4";
+import cave from "../../assets/miniGame/Cave.png";
+import caveEntrance from "../../assets/miniGame/CaveEntrance.png";
+import mine from "../../assets/miniGame/Mine.png";
+import tracks from "../../assets/miniGame/Tracks.png";
+import bridge from "../../assets/miniGame/bridge.png";
+
 /* Project data structure */
 const projectData = {
   "Ganbatte Kudasai": {
@@ -175,9 +186,43 @@ const projectData = {
       { type: "image", src: shards },
       { type: "video", src: compass_video },
       { type: "image", src: win_gate },
+      { type: "image", src: cave },
+      { type: "image", src: caveEntrance },
+      { type: "image", src: mine },
+      { type: "image", src: tracks },
+      { type: "image", src: bridge },
+    ],
+  },
+
+  invoiceApp: {
+    title: "invoice Application",
+    description:
+      "A WPF-based billing application developed as the final project for the User Interface Programming course during my first year of studies. The application features a graphical user interface and a relational MariaDB database for managing customers, products, and invoices. Users can create, edit, and delete data across all entities through an intuitive interface.",
+    github: "https://github.com/Boustaaja/laskutussovellus",
+    purpose:
+      "The goal of this project was to design and implement a desktop invoicing application using object-oriented programming principles and a relational MariaDB database. The system enables users to create, edit, and manage invoices, customers, and products through a graphical WPF interface. The project emphasized database design, data relationships, and practical software architecture.",
+    feature: [
+      "Add, update, and delete customers through the WPF GUI",
+      "Add, update, and delete products with price and quantity data",
+      "Create and modify invoices for existing customers",
+      "Automatic total calculation based on invoice rows and product data",
+      "Archive views for browsing customers, products, and invoices",
+      "Relational database design including Invoice, InvoiceRow, and Product tables",
+      "Connection to a local MariaDB database with automatic table creation for testing",
+    ],
+    technologies: ["C#", ".NET / WPF", "MariaDB", "MySQL"],
+    solutions:
+      "I designed and implemented the database structure using relational principles, defining one-to-many and many-to-one relationships between entities (Invoices, InvoiceRows, and Products). The application includes full CRUD functionality and connects to a local MariaDB instance. On startup, the app checks for required tables and creates them automatically if needed. I focused on ensuring data integrity, relationship consistency, and a user-friendly WPF interface for managing all entities. Through this project, I gained strong experience in relational database design, GUI programming, and integrating database operations with an object-oriented C# application.",
+    media: [
+      { type: "image", src: add },
+      { type: "image", src: invoice },
+      { type: "image", src: item },
+      { type: "video", src: testInvoice },
+      { type: "image", src: update },
     ],
   },
 };
+
 /* Example project data, can be expanded or fetched from an API */
 function ProjectDetail() {
   const { id } = useParams();

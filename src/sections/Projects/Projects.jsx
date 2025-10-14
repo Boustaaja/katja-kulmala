@@ -5,6 +5,7 @@ import ProjectCard from "../../common/ProjectCard";
 import newGame from "../../assets/Minimax/NewGameRS.png";
 import capsized_boat from "../../assets/Capsized/CSRS.png";
 import miniGame from "../../assets/miniGame/gate.png";
+import invoiceApp from "../../assets/InvoiceApp/invoice.png";
 
 function Projects() {
   return (
@@ -35,6 +36,12 @@ function Projects() {
           src={miniGame}
           h3="Mini-game"
           p="Survival mini-game set in a maze."
+        />
+        <ProjectCard
+          id="invoiceApp"
+          src={invoiceApp}
+          h3="Invoice App"
+          p="A simple invoicing application."
         />
       </div>
     </section>
