@@ -44,6 +44,20 @@ import caveEntrance from "../../assets/miniGame/CaveEntrance.png";
 import mine from "../../assets/miniGame/Mine.png";
 import tracks from "../../assets/miniGame/Tracks.png";
 import bridge from "../../assets/miniGame/bridge.png";
+import magnetism from "../../assets/WillowGuard/Magnetism_Willow.mp4";
+import color from "../../assets/WillowGuard/Color.mp4";
+import loot from "../../assets/WillowGuard/Loot.png";
+import rarity from "../../assets/WillowGuard/Rarity.png";
+import completed from "../../assets/WillowGuard/DungeonCompleted.png";
+import cottages from "../../assets/Frostreign/cottages.png";
+import armory from "../../assets/Frostreign/Armory.mp4";
+import boss from "../../assets/Frostreign/Albino1.mp4";
+import boss2 from "../../assets/Frostreign/Albino2.mp4";
+import church from "../../assets/Frostreign/church.mp4";
+import mill from "../../assets/Frostreign/Mill.mp4";
+import tavern from "../../assets/Frostreign/Tavern.mp4";
+import ice from "../../assets/Frostreign/IceDamage.mp4";
+import open from "../../assets/Frostreign/openArea.png";
 
 /* Project data structure */
 const projectData = {
@@ -207,7 +221,7 @@ const projectData = {
       "Create and modify invoices for existing customers",
       "Automatic total calculation based on invoice rows and product data",
       "Archive views for browsing customers, products, and invoices",
-      "Relational database design including Invoice, InvoiceRow, and Product tables",
+      "Relational database design",
       "Connection to a local MariaDB database with automatic table creation for testing",
     ],
     technologies: ["C#", ".NET / WPF", "MariaDB", "MySQL"],
@@ -219,6 +233,134 @@ const projectData = {
       { type: "image", src: item },
       { type: "video", src: testInvoice },
       { type: "image", src: update },
+    ],
+  },
+
+  willowGuard: {
+    title: "Willow Guard",
+
+    role: "Programming / Level Design Intern – MiTale",
+    period:
+      "Internship: January–April 2026 | Thesis project: May 2026 – present",
+
+    description:
+      "Willow Guard is a story-driven action RPG set in a dark fantasy world where gods have abandoned the animals. The game combines fast-paced hack-and-slash combat with roguelite elements, including dungeon-like levels, partially randomized environments and loot, and progression loss upon death.",
+
+    github: null,
+    steamUrl: "https://store.steampowered.com/app/2377090/Willow_Guard/",
+    purpose: [
+      "During my internship at MiTale, I worked as a Programmer and a Level Designer on Willow Guard and its Frostreign DLC.",
+    ],
+    feature: [
+      "Equipment rarity system with rarity-based logic and color coding",
+      "New damage type and arrow weapon with a freezing shader effect",
+      "Implemented an item magnetism system that attracts nearby inaccessible items to the player when the player remains stationary for a moment.",
+      "Refactored cooldown logic to support global time scaling for cooldowns and animations",
+    ],
+    technologies: ["Unity", "C#", "Jira", "GitLab", "Git"],
+    solutions: [
+      "My work on Willow Guard included developing a dynamic equipment rarity system that adjusted chest rewards based on the highest rarity of the corresponding equipment already owned by the player. I also implemented rarity-based color coding displaying the rarity color in loot names, dungeon completion rewards, and as a glow around equipment sprites. Additionally, I implemented a new cold damage type and corresponding cold arrow weapon, which were utilized in the Frostreign DLC. I also created randomized hunt maps for the main game and worked on level design for the Frostreign DLC, which is presented in a separate project.",
+
+      "Through this work, I gained practical experience with Unity and learned to navigate a large existing codebase and understand connections between related systems. I also gained experience using Jira for task management and GitLab for version control. I worked independently on my assigned tasks with guidance from my supervisor when needed, while weekly team meetings provided opportunities to share updates and discuss completed work. This experience strengthened my communication and collaboration skills in a professional development environment.",
+    ],
+    media: [
+      { type: "video", src: magnetism },
+      { type: "video", src: color },
+      { type: "image", src: loot },
+      { type: "image", src: rarity },
+      { type: "image", src: completed },
+      {
+        type: "youtube",
+        src: "https://www.youtube.com/embed/KT_BjcJW9XM?si=wa4cUITCdLXU5KBf",
+      },
+    ],
+  },
+
+  frostreign: {
+    title: "Willow Guard: Frostreign",
+
+    role: "Programming / Level Design Intern – MiTale",
+    period:
+      "Internship: January–April 2026 | Thesis project: May 2026 – present",
+
+    description:
+      "Frostreign is a DLC for Willow Guard that continues the story of the main character, Ghweros, and his companions journey through the frozen Atalaka Mountains towards Regnum Polis. The DLC introduces new environments, enemies, mysteries, and a new companion who adds new tactical possibilities to combat.",
+
+    github: null,
+    steamUrl:
+      "https://store.steampowered.com/app/4413850/Willow_Guard__Frostreign/",
+    purpose: [
+      "During my internship at MiTale, I worked as a Programmer and Level Designer on Willow Guard and its Frostreign DLC. My work on the DLC focused on level design and creating game environments using tilemaps and pixel-art assets.",
+    ],
+    feature: [
+      "Designed and implemented one of the DLC's main story levels, including gameplay puzzles",
+      "Created additional partially randomized maps using tilesets and pixel-art assets",
+      "Set up tilemaps and prepared assets for use in the game",
+    ],
+    technologies: ["Unity", "C#", "Jira", "GitLab", "Git"],
+    solutions: [
+      "As a Level Designer, I designed and implemented one of the DLC's main story levels, including gameplay puzzles and the design of the main boss arena. I also created additional partially randomized maps using tilesets and pixel-art assets. These maps used manually designed variations of layout sections and decorative elements, which were randomly combined by the game to create variation between playthroughs. My work also included designing enemy encounters and spawn setups, setting up tilemaps, and configuring existing game components in the Unity Editor. On Willow Guard I implemented a new cold damage type and corresponding cold arrow weapon, which were utilized in the Frostreign DLC.",
+
+      "During the work, I received short training on the level design workflow and using the tilemap editor and tools, as well as on designing enemy encounters and spawn setups. I reviewed my progress with my supervisor throughout the work and took part in weekly level design meetings where we discussed layouts and problems. The work gave me extensive experience working in the Unity Editor and allowed me to learn how to use and understand existing game components and ScriptableObjects within a larger project.",
+    ],
+    media: [
+      { type: "image", src: cottages },
+      { type: "image", src: open },
+      { type: "video", src: church },
+      { type: "video", src: tavern },
+      { type: "video", src: mill },
+      { type: "video", src: armory },
+      { type: "video", src: boss },
+      { type: "video", src: boss2 },
+      { type: "video", src: ice },
+      {
+        type: "youtube",
+        src: "https://www.youtube.com/embed/GsFBbR9KgL8?si=Ydza8a7qTQH-kRph",
+      },
+    ],
+  },
+
+  lastDrop: {
+    title: "Last Drop",
+
+    role: "Programming Intern – Lohkare Games",
+    period: "Internship: November–December 2025",
+
+    description:
+      "Last Drop is an open-world action-adventure game set in the fictional city of Nykylä in 1994. The game world is based on Jyväskylä and the Huhtasuo district, and partially recreates real locations, while the story and characters draw from real-life experiences during the 1990s recession and Finnish culture.",
+
+    github: null,
+    steamUrl: "https://store.steampowered.com/app/3275750/Last_Drop/",
+    purpose: [
+      "During my internship at Lohkare Games, I worked as a Game Development Intern on Last Drop using Unreal Engine and Blueprints. My work focused on gameplay programming, multiplayer functionality, and improving the project's bug-reporting workflow.",
+    ],
+    feature: [
+      "Developed a vehicle break-in system with different locks and tools",
+      "Implemented mechanics for breaking into vehicles and stealing items such as car radios, batteries, and cargo",
+      "Modified the Traffic AI System to support spawning designated parked vehicles at specific locations alongside randomly spawned traffic vehicles",
+      "Created 3D crowbar model for use in the vehicle break-in system",
+      "Worked with multiplayer functionality and replication",
+      "Created a GitHub Issue Form Template for bug reports and documented its use",
+    ],
+    technologies: ["Unity", "C#", "Blender", "GitHub Issues"],
+    solutions: [
+      "I developed a vehicle break-in system using partly existing gameplay functionality where applicable. For example, I utilized the project's existing quick time event (QTE) and adapted the interaction to work as part of the break-in system. I also implemented similar interaction logic for accessing vehicle storage, based on the existing trunk inventory functionality. The system included different levels of locks and tools, with tools having limited durability and eventually breaking through use. Players could use appropriate tools to break into vehicles and steal items such as car radios, batteries, and cargo from trunks.",
+
+      "To support the break-in system, I worked with the project's Traffic AI System and modified its existing vehicle spawning logic. I implemented support for designated parked vehicles that could be spawned at specific locations alongside randomly generated traffic vehicles. These designated vehicles could then be used as targets for the vehicle break-in gameplay.",
+
+      "I also created 3D crowbar model to be used as break-in tool.",
+
+      "Alongside the gameplay work, I worked with the project's multiplayer functionality and replication. This included implementing replicated door interactions and investigating replication issues together with another developer. I also studied the existing multiplayer implementation and used additional learning materials to improve my understanding of multiplayer development in Unreal Engine.",
+
+      "During the internship, I identified development needs related to bug reporting and created a GitHub Issue Form Template for bug reports. I also wrote documentation explaining how to use the template and report bugs, helping the team maintain a more consistent bug-reporting workflow.",
+
+      "The work was carried out mainly independently, with development sessions and discussions with my internship supervisor when needed. I took part in daily written scrum updates and weekly meetings, which supported communication and helped me follow the project's progress. The internship gave me practical experience working with an existing Unreal Engine project, gameplay systems, multiplayer functionality, and development workflows using Blueprints.",
+    ],
+    media: [
+      {
+        type: "youtube",
+        src: "https://www.youtube.com/embed/_h_vC4RUB7w?si=_KxKBfIimkrgWBYC",
+      },
     ],
   },
 };
@@ -254,7 +396,10 @@ function ProjectDetail() {
   return (
     <section className={styles.container}>
       <h1>{project.title}</h1>
+      {project.role && <p>{project.role}</p>}
+      {project.period && <p>{project.period}</p>}
       <ProjectCarousel media={project.media} />
+
       <p>{project.description}</p>
       <h2>Purpose:</h2>
       <p>{project.purpose}</p>
@@ -271,7 +416,13 @@ function ProjectDetail() {
         ))}
       </ul>
       <h2>Solution & Learning:</h2>
-      <p>{project.solutions}</p>
+      {Array.isArray(project.solutions) ? (
+        project.solutions.map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ))
+      ) : (
+        <p>{project.solutions}</p>
+      )}
       <button className={styles.btn} onClick={goBackToProjects}>
         Projects
       </button>
@@ -281,6 +432,17 @@ function ProjectDetail() {
             <img src={isDark ? githubDark : githubLight} alt="Github icon" />
           </a>
         </span>
+      )}
+
+      {project.steamUrl && (
+        <a
+          href={project.steamUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.steamLink}
+        >
+          View on Steam ↗
+        </a>
       )}
     </section>
   );

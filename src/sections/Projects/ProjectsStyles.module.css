@@ -38,6 +38,7 @@ Putting img inside container so that the effect applies to only the image inside
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: flex-start;
     padding: 0 30px;
   }
 }

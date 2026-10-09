@@ -6,7 +6,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/Katja_Kulmala_CV.pdf";
+import CV from "../../assets/Katja_Kulmala_CV_updated.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 // Hero section component
@@ -61,9 +61,12 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          A dedicated and motivated team player passionate about designing and
-          brainstorming. Inspired by bringing ideas to life. Currently seeking
-          an internship opportunity in game or software development.
+          A creative and motivated developer passionate about turning ideas into
+          engaging experiences. I enjoy combining technical problem-solving with
+          creative thinking.
+        </p>
+        <p className={styles.description}>
+          Open to work in game and software development.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

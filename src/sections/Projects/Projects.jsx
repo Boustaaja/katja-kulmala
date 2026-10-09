@@ -6,6 +6,9 @@ import newGame from "../../assets/Minimax/NewGameRS.png";
 import capsized_boat from "../../assets/Capsized/CSRS.png";
 import miniGame from "../../assets/miniGame/gate.png";
 import invoiceApp from "../../assets/InvoiceApp/invoice.png";
+import willowGuard from "../../assets/WillowGuard/WillowGuard.png";
+import frostreign from "../../assets/Frostreign/Frostreign.png";
+import lastDrop from "../../assets/LastDrop/LastDrop.jpg";
 
 function Projects() {
   return (
@@ -42,6 +45,26 @@ function Projects() {
           src={invoiceApp}
           h3="Invoice App"
           p="A simple invoicing application."
+        />
+        <ProjectCard
+          id="willowGuard"
+          src={willowGuard}
+          h3="Willow Guard"
+          p="Internship work on a story-driven action RPG."
+        />
+
+        <ProjectCard
+          id="frostreign"
+          src={frostreign}
+          h3="Willow Guard Frostreign"
+          p="Internship work on the Willow Guard Frostreign DLC."
+        />
+
+        <ProjectCard
+          id="lastDrop"
+          src={lastDrop}
+          h3="Last Drop"
+          p="Internship work on an open-world action-adventure game."
         />
       </div>
     </section>

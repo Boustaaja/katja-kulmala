@@ -20,7 +20,7 @@ function AboutMe() {
       </p>
 
       <p className={styles.description}>
-        I am currently a third-year Business IT student at Karelia University of
+        I am currently a final-year Business IT student at Karelia University of
         Applied Sciences, specializing in{" "}
         <span
           className={styles.nameHighlight}
@@ -28,15 +28,56 @@ function AboutMe() {
         >
           game and software development
         </span>
-        . With 17 years in{" "}
+        , and I am expected to graduate in autumn 2026. With 18 years of
+        experience in{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
           customer service
         </span>
-        , I have developed strong communication, teamwork, and problem-solving
-        skills.
+        , I have developed strong communication and teamwork skills, along with
+        a customer-oriented mindset.
+      </p>
+
+      <p className={styles.description}>
+        During my studies, I have gained hands-on industry experience through
+        internships at{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          Lohkare Games{" "}
+        </span>
+        and{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          MiTale
+        </span>
+        , both game development studios. At Lohkare Games, I worked on{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          Last Drop
+        </span>{" "}
+        using Unreal Engine and Blueprints. At MiTale, I worked on{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          Willow Guard
+        </span>{" "}
+        and its{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          Frostreign DLC
+        </span>
+        , working with programming and level design using Unity and C#.
       </p>
 
       <p className={styles.description}>
@@ -48,14 +89,14 @@ function AboutMe() {
           Creativity
         </span>{" "}
         drives me. I love turning ideas into tangible experiences. Whether
-        designing{" "}
+        designing and implementing{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
           game mechanics
-        </span>{" "}
-        crafting{" "}
+        </span>
+        , crafting{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
@@ -88,7 +129,7 @@ function AboutMe() {
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          imaginative thinking.
+          creative thinking.
         </span>{" "}
       </p>
 
@@ -122,24 +163,37 @@ function AboutMe() {
         >
           level design
         </span>
-        . I admire Dark Souls for its design brilliance and enjoy exploring what
-        makes games memorable. I have a solid foundation with{" "}
+        . I have practical experience with{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
-          Unreal Engine
+          Unity and C#
         </span>
-        (C++ and Blueprints). In software development, I am more familiar with
-        .NET and C#, and web technologies (JavaScript, HTML and CSS). Outside of
-        school, I dive into{" "}
+        , as well as{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          Unreal Engine, C++, and Blueprints.{" "}
+        </span>
+        I enjoy continuously expanding my skills and exploring new technologies.
+        I am currently learning and gaining experience with{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          Godot.{" "}
+        </span>
+        I also have experience with .NET and web technologies such as
+        JavaScript, HTML, and CSS. Outside of school, I dive into{" "}
         <span
           className={styles.nameHighlight}
           style={{ color: highlightedColor }}
         >
           personal projects
         </span>{" "}
-        to experiment, learn, and push creative boundaries.
+        to experiment, learn, and push my skills further.
       </p>
 
       <p className={styles.description}>
@@ -157,10 +211,17 @@ function AboutMe() {
         >
           serious games
         </span>
-        . My specialization in both software and game development supports this
-        interest, and I believe that my combination of technical skills and
-        passion for gaming enables me to contribute effectively to projects that
-        integrate game elements in meaningful and innovative ways.
+        , as well as the ways game design can influence player motivation and
+        experience. I am currently finalizing my thesis, commmissioned by
+        MiTale, where I have designed and implemented{" "}
+        <span
+          className={styles.nameHighlight}
+          style={{ color: highlightedColor }}
+        >
+          Steam achievements{" "}
+        </span>
+        for the Frostreign DLC of Willow Guard. The topic was chosen based on my
+        own interests in this area.
       </p>
 
       <p

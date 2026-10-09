@@ -13,7 +13,8 @@ function ProjectCarousel({ media }) {
       navigation
       pagination={{ clickable: true }}
       slidesPerView={1}
-      loop={true}
+      centerInsufficientSlides={true}
+      loop={media.length > 1}
       spaceBetween={20}
       className={styles.carouselContainer}
       breakpoints={{
@@ -33,6 +34,15 @@ function ProjectCarousel({ media }) {
           )}
           {item.type === "video" && (
             <video controls src={item.src} className={styles.carouselMedia} />
+          )}
+          {item.type === "youtube" && (
+            <iframe
+              src={item.src}
+              title="YouTube video"
+              className={styles.youtubeMedia}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           )}
         </SwiperSlide>
       ))}
