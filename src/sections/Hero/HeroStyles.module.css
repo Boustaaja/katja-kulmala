@@ -13,7 +13,7 @@
   height: 100dvh; /* dynamic viewport height */
   height: 100svh; /* small viewport height (turvallisin mobiilissa) */
   .hero {
-    max-width: 200px;
+    max-width: 160px;
   }
 
   /* Span is for our social media links */
@@ -46,7 +46,9 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); /* shadow. 0.25 is for the transparency*/
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    transition:
+      box-shadow 200ms ease-in-out,
+      transform 200ms ease-in-out;
   }
 
   button:hover {
@@ -92,6 +94,7 @@
 .colorMode {
   position: absolute;
   right: 10; /*this affects the moon/sun icon location*/
+  bottom: 0;
   width: 25px;
 }
 
